@@ -1,0 +1,536 @@
+@media only screen and (max-width: 500px) {
+    // body{
+    //     background-color: black;
+    //     div{
+    //         background-color: antiquewhite;
+    //     }
+    // }
+
+
+
+    .navbar {
+        width: 100%;
+        border-radius: 0;
+        position: absolute;
+        top: 0;
+
+        .nav-data {
+            width: 100% !important;
+            margin: 0rem auto;
+            padding-top: 0;
+        }
+
+        .nav-data .menu {
+            width: 100%;
+
+            .menu-items {
+                justify-content: end !important;
+
+                .menu-item {
+                    padding: 0 .8rem;
+                }
+            }
+        }
+    }
+
+    .navbar .uni-btn {
+        display: none;
+    }
+
+    .main-header .hero .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero {
+        height: 100%;
+
+        .container .hero-left-data {
+            padding-top: 8rem;
+            width: 90%;
+            margin: 0 auto;
+
+            h2 {
+                font-size: 3rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+                width: 100%;
+            }
+
+            p {
+                width: 100%;
+                margin-top: 0;
+            }
+
+            .hero-box-text {
+                margin-top: 1rem;
+                width: 90%;
+                display: block;
+                line-height: 1em;
+                font-size: 1rem;
+            }
+
+            .uni-btn {
+                margin: 3rem 0;
+
+                // text-align: center;
+                button {
+                    border-radius: 5px;
+                    padding: 0.3rem 1rem;
+                }
+            }
+        }
+    }
+
+    .hero .container .hero-right-data::before {
+        width: 90%;
+        height: 10rem;
+        bottom: 1rem;
+    }
+
+    .hero .container .hero-right-data .hero-img .rupee-img {
+        right: -1rem !important;
+        left: auto;
+    }
+
+    .hero .container .hero-right-data .hero-img img {
+        display: inline;
+        padding-top: 0;
+        margin-left: 1rem;
+        right: -50%;
+        transform: translateX(-50%);
+    }
+
+    .some-details .bottom-data {
+        margin-top: 1.5rem;
+
+        .inner-container {
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+
+            .data-item {
+                width: 90%;
+                justify-content: flex-start;
+                padding: .5rem 0;
+                align-items: center;
+
+                &::after {
+                    display: none;
+                }
+            }
+        }
+
+        .uni-btn {
+            button {
+                padding: .5rem 3rem;
+            }
+        }
+    }
+
+    .schedule {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .schedule .container .owl-carousel {
+        margin-top: 2rem;
+        padding: 0;
+
+        .schedule-box {
+            width: 350px;
+            height: 380px;
+            margin: 0 auto;
+        }
+
+        // .owl-item{
+        //     width: 320px !important;
+        // }
+    }
+
+    .light-box-container {
+        .data {
+            h3 {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+
+
+    .workshop {
+        margin-top: 4rem;
+
+        .top-data {
+            width: 90% !important;
+
+            h2 {
+                font-size: 2rem !important;
+            }
+
+            h4 {
+                padding: 0.5rem 0 !important;
+                font-size: 1.2rem !important;
+            }
+        }
+
+        .mid-data {
+            h3 {
+                font-size: 1.4rem !important;
+            }
+        }
+
+        .bottom-data p {
+            width: 90% !important;
+            font-size: 1rem !important;
+        }
+
+        .uni-btn button {
+            padding: 0.5rem 2rem !important;
+        }
+    }
+
+
+    .about .container {
+        flex-direction: column;
+        padding: 0;
+
+        .left-data {
+            h4 {
+                font-size: 1rem;
+            }
+
+            width: 90% !important;
+            margin: 0 auto !important;
+
+            h3 {
+                font-size: 2.5rem;
+            }
+
+            P {
+                width: 100%;
+                font-size: .8rem;
+            }
+        }
+
+        .right-data {
+            margin-top: 2rem;
+        }
+    }
+
+    .brands .container .data {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .about .container .right-data::before {
+        right: 0rem;
+    }
+
+    .books .container .right-data::before {
+        right: -2rem;
+    }
+
+    .overview-slider h4 {
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    .overview .carousel .carousel-control-prev {
+        top: auto;
+        bottom: -5rem !important;
+        left: 35%;
+    }
+
+    .overview .carousel .carousel-control-next {
+        top: auto;
+        bottom: -5rem !important;
+        right: 35%;
+    }
+
+    .overview .top-data p {
+        width: 90%;
+    }
+
+    .overview .carousel .carousel-control-next-icon,
+    .overview .carousel .carousel-control-prev-icon {
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+
+    .some-details .top-data .data h3 {
+        font-size: 1.5rem;
+    }
+
+    .brands {
+        padding: 4rem 0 !important;
+
+        .container {
+            h3 {
+                font-size: 2rem;
+            }
+
+            .data {
+                padding-top: 2rem;
+                left: -5%;
+
+                div img {
+                    margin: 0 auto !important;
+                }
+            }
+        }
+    }
+
+    .books .container .left-data::before {
+        left: -5rem;
+        bottom: -3rem;
+    }
+
+
+    .testimonial .container .data .bottom-data .col-md-4 {
+        height: 15rem;
+        width: 20rem;
+        margin: 0 auto;
+    }
+
+    .contact {
+        .data {
+            width: 90%;
+            margin: 0 auto;
+
+            .left-data {
+                h3 {
+                    font-size: 1.5rem !important;
+                }
+            }
+
+            .right-data {
+                padding-right: 0;
+
+                form {
+                    padding: 0 !important;
+                    padding-top: 1.5rem !important;
+                }
+            }
+        }
+    }
+
+    .footer {
+        .row {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            div {
+                width: 90% !important;
+                margin: 0 auto;
+                padding: 0 !important;
+            }
+
+            .col1 {
+                p {
+                    width: 100%;
+                }
+            }
+
+            .col4 .footer-nav ul {
+                justify-content: center !important;
+                padding: 0 !important;
+                padding-top: 1rem !important;
+
+                a {
+                    padding: 0 .5rem;
+                }
+            }
+        }
+    }
+
+
+    .light-box-container .data .video-container {
+        width: 100%;
+        margin: auto;
+        height: 40rem;
+    }
+
+    .light-box-container .data .video-iframe {
+        top: 0;
+        left: 0;
+        width: 95%;
+        height: 50%;
+    }
+
+
+
+    ul {
+        padding: 0 !important;
+    }
+
+    .mb-5 {
+        margin-bottom: 2rem !important;
+    }
+
+    .mt-3 {
+        margin-top: 0 !important;
+    }
+
+    .mt-5 {
+        margin-top: 2rem !important;
+    }
+
+    .py-5 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .hero {
+        height: 100%;
+
+        .hero-left-data {
+            padding-top: 8rem !important;
+        }
+
+        .hero-right-data {
+            padding-top: 8rem !important;
+
+            &::before {
+                height: 48.6rem !important;
+            }
+        }
+
+        .hero-img img {
+            padding-top: 8.4rem !important;
+        }
+    }
+
+    .overview .item {
+        height: 19rem;
+        width: 16rem;
+    }
+
+    .overview .item img {
+        margin-top: 0rem !important;
+        width: 50% !important;
+    }
+
+    .overview .item h4 {
+        margin-top: 1rem;
+    }
+
+    .some-details .bottom-data .inner-container {
+        width: 100% !important;
+    }
+
+    .some-details .bottom-data .inner-container .data-item::after {
+        display: none;
+    }
+
+    .some-details .bottom-data .uni-btn button {
+        padding: 1rem 2rem;
+    }
+
+
+
+
+    .schedule .container .owl-carousel {
+        padding-left: 6rem;
+    }
+
+    .schedule .container .owl-carousel .schedule-box {
+        width: 300px;
+    }
+
+    .testimonial .container .data .bottom-data .col-md-4 {
+        height: 17rem;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0.7rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar{
+        top: 1rem;
+    }
+    .navbar .menu-items {
+        padding: 0 !important;
+    }
+
+    .uni-btn button {
+        padding: 0.3rem 2rem !important;
+    }
+
+    .hero .container .hero-left-data {
+        width: 100%;
+    }
+    .hero .container .hero-right-data::before {
+        width: 15rem !important;
+        left: 60%;
+        right: 2rem;
+    }
+    .hero .container .hero-right-data .hero-img img {
+    width: 100%;
+    bottom: -7rem;
+    }
+    .hero .hero-right-data {
+        padding-top: 1rem !important;
+        &::before {
+            height: 40rem !important;
+        }
+    }
+    
+    .hero .container .hero-left-data {
+        h2{
+            font-size: 3rem;
+        }
+        h3{
+            font-size: 1.8rem;
+        }
+    }
+    .hero .container .hero-right-data .hero-img .rupee-img {
+        position: absolute;
+        top: 60%;
+        left: -10%;
+        width: 40%;
+        height: 40%;
+    }
+
+    .overview .item {
+        height: 15rem;
+        width: 12rem;
+        padding: 0 .5rem;
+        h4{
+            font-size: .8rem ;
+        }
+        p{
+            font-size: 9px;
+        }
+    }
+
+    .some-details .bottom-data .inner-container .data-item img {
+        margin-right: 0.3rem;
+        height: 2rem;
+        width: 2rem;
+    }
+    .some-details .bottom-data .inner-container .data-item{
+        align-items: center ;
+        h3{
+            font-size: .8rem;
+        }
+    }
+    .some-details .bottom-data .inner-container{
+        height: 6rem;
+    }
+    .uni-btn button {
+        padding: 0.3rem 1rem !important;
+        font-size: .9rem;
+    }
+    .schedule .container .owl-carousel {
+        padding-left: 0rem;
+        margin-top: 3rem;
+    }
+}
